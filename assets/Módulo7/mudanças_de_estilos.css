@@ -1,0 +1,24 @@
+body{
+    background-color:  #eeee;
+
+}
+input[type=text]{
+    padding: 10px;
+    font-size: 14px;
+}
+.azul{
+    background-color: rgb(17, 113, 238);
+}
+.vermelho{
+    background-color: red;
+    color: white;
+
+}
+.verde{
+    background-color: rgb(35, 175, 8);
+    color: black;
+}
+
+#telefone{
+    display: none;
+}

@@ -5,17 +5,26 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Ano novo</h1>
+    <h1 id="titulo" onclick="alert('clicou')">Ano novo</h1>
+    <h1 id="titulo" onmouseover="console.log('Passou o mouse')">TESTE</h1>
     <ul>
         <li></li>
         <li></li>
     </ul>
     
     <input type="text" placeholder="Digite algo" onkeydown="apertou()" onkeypress="segurou()" onkeyup="soltou()">
+    
+    <input onkeyup="digitou(event)" type="text" id="campo" name="usuario" value="nome">
+    
     <button class="botao azul" onclick="clicou()">Fazer ação</button>
 
+    <button onclick="document.getElementById('titulo').innerHTML = 'ainnn que dlç'">Clique em mim</button>
+
+    <button onclick="this.innerHTML='clicadinhas'">da uma clicadinha</button>
    
 
-<script src="eventosDeTeclado.js"></script>
+<script src="eventosDeTeclado.js"></script> 
 </body>
 </html>
+
+
