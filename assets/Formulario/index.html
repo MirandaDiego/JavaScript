@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="screen">
+        <div class="leftside">
+            <img src="financial_data.png" alt="">
+        </div>
+        <div class="rightside">
+            <h1>Crie uma conta</h1>
+            <form action="cadastro.js" method="POST" class="b7validator">
+                <label for="">
+                    Seu nome: <br>
+                    <input type="text" name="name" data-rules="required|min=2">
+                </label>
+                <label for="">
+                    Seu e-mail: <br>
+                    <input type="text" name="email" data-rules="required|email">
+                </label>
+                <label for="">
+                    Seu senha: <br>
+                    <input type="password" name="password" data-rules="required|min=6">
+                </label>
+                <label for="">
+                  
+                    <input type="submit" value="Cadastrar">
+                </label>
+            </form>
+            <div>
+                Já tem uma conta? <a href="">Faça o Login</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
