@@ -74,6 +74,7 @@ let B7validator ={
         }
     };
 
+    
 
 
 let form = document.querySelector('.b7validator');
